@@ -1,18 +1,18 @@
 
 ---
-import { Image } from 'astro:assets';
+import { Image, Picture  } from 'astro:assets';
 import bannerDesktop from '../assets/bannerv2.jpg';
 import bannerMovil from '../assets/banner-respv2.jpg';
 ---
 <div class="relative">
 
     <Image src={bannerDesktop} alt="Banner Alfred" width="1920" height="891"  class="hidden sm:block"/>
-    <Image src={bannerMovil} alt="Banner Alfred" width="1920" height="891" class="block sm:hidden" />
+    <Picture src={bannerMovil} formats={['avif', 'webp']} width="768" height="1024" alt="Banner Alfred." class="block sm:hidden" />
 
-    <div class="absolute top-1/4 sm:top-1/2 left-[7%]  max-w-2xl sm:-translate-y-1/2 px-4">
+    <div class="absolute top-[12%] sm:top-1/2 left-[7%]  max-w-2xl sm:-translate-y-1/2 px-4">
         <h1 class="text-5xl sm:text-6xl text-white font-din-black text-shadow-lg mb-1">Soy Alfred,</h1>
-        <h2 class="text-3xl sm:text-4xl text-white font-din-medium text-shadow-lg mb-2">el asistente de minutas CI.</h2>
-        <h3 class="text-2xl sm:text-2xl text-white font-din-medium text-shadow-lg">
+        <h2 class="text-2xl sm:text-4xl text-white font-din-medium text-shadow-lg mb-2">el asistente de minutas CI.</h2>
+        <h3 class="text-xl sm:text-2xl text-white font-din-medium text-shadow-lg">
             Bienvenido a nuestro primer asistente IA<br> Creado inhouse.
         </h3>
 

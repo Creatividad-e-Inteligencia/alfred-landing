@@ -4,15 +4,16 @@ interface Props {
 }
 
 const { title } = Astro.props;
+import '../styles/global.css';
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
+		<meta name="description" content="Alfred, Asistente IA de minutas." />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/alfred/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
@@ -23,22 +24,22 @@ const { title } = Astro.props;
 <style is:global>
 	@font-face {
 		font-family: din-black;
-		src: url(/font/DINPRO-BLACK.OTF);
+		src: url(/alfred/font/DINPRO-BLACK.OTF);
 	}
 
 	@font-face {
 		font-family: din-bold;
-		src: url(/font/DINPRO-BOLD.OTF);
+		src: url(/alfred/font/DINPRO-BOLD.OTF);
 	}
 
 	@font-face {
 		font-family: din-medium;
-		src: url(/font/DINPRO-MEDIUM.OTF);
+		src: url(/alfred/font/DINPRO-MEDIUM.OTF);
 	}
 
 	@font-face {
 		font-family: din-regular;
-		src: url(/font/DINPRO-REGULAR.OTF);
+		src: url(/alfred/font/DINPRO-REGULAR.OTF);
 	}
 	html {
 		font-family: system-ui, sans-serif;
