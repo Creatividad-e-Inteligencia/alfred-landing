@@ -1,20 +1,27 @@
 
 ---
-import { Image, Picture  } from 'astro:assets';
-import bannerDesktop from '../assets/bannerv2.jpg';
-import bannerMovil from '../assets/banner-respv2.jpg';
+import { Picture } from 'astro:assets';
+import bannerDesktop from '../assets/bg-banner.jpg';
+import personaje from '../assets/personaje.png';
+import bgPersonaje from '../assets/bg-personaje.png';
 ---
-<div class="relative">
-
-    <Image src={bannerDesktop} alt="Banner Alfred" width="1920" height="891"  class="hidden sm:block"/>
-    <Picture src={bannerMovil} formats={['avif', 'webp']} width="768" height="1024" alt="Banner Alfred." class="block sm:hidden" />
-
-    <div class="absolute top-[12%] sm:top-1/2 left-[7%]  max-w-2xl sm:-translate-y-1/2 px-4">
-        <h1 class="text-5xl sm:text-6xl text-white font-din-black text-shadow-lg mb-1">Soy Alfred,</h1>
-        <h2 class="text-2xl sm:text-4xl text-white font-din-medium text-shadow-lg mb-2">el asistente de minutas CI.</h2>
-        <h3 class="text-xl sm:text-2xl text-white font-din-medium text-shadow-lg">
-            Bienvenido a nuestro primer asistente IA<br> Creado inhouse.
-        </h3>
-
+<div class="relative overflow-hidden">
+    <div class="h-[500px] w-full min-h-[400px] sm:min-h-[500px] sm:h-[40vw]">
+        <Picture src={bannerDesktop} formats={[ 'webp']} width="1920" height="891" alt="Bg Banner." class="object-cover h-full w-full sm:block" />
     </div>
+    <!-- <Picture src={bannerMovil} formats={['avif', 'webp']} width="768" height="1024" alt="Banner Alfred." class="block sm:hidden h" /> -->
+
+    <div class="absolute top-0 bottom-0  left-[7%] right-[7%]   px-4 flex justify-between sm:items-center z-10 flex-col sm:flex-row pt-10">
+        <div class="titulos sm:flex-1">
+            <h1 class="text-6xl sm:text-5xl xl:text-8xl text-white text-shadow font-din-medium  mb-1 animate__animated animate__fadeInDown ">Soy Alfred,</h1>
+            <h2 class="text-xl sm:text-2xl xl:text-4xl text-white text-shadow sm:text-shadow-md font-din-medium  mb-2 animate__animated animate__fadeInLeft !duration-700">el asistente de minutas CI.</h2>
+            <h3 class="text-lg sm:text-xl xl:text-2xl text-white text-shadow sm:text-shadow-md  font-din-medium  animate__animated animate__fadeInLeft ">
+                Bienvenido a nuestro primer asistente IA<br> Creado inhouse.
+            </h3>
+        </div>
+        <div class="personaje sm:flex-1 self-end text-right ">
+            <Picture src={personaje} formats={[ 'webp']} width="600" height="640" alt="Personaje." class="max-w-64 lg:max-h-[35vw] lg:w-auto sm:max-w-full lg:max-w-none inline-block animate__animated animate__slideInRight  !duration-700 drop-shadow-4xl " />
+        </div>
+    </div>
+    <Picture src={bgPersonaje} formats={[ 'webp']} width="800" height="674" alt="Bg Personaje." class="w-[500px] -bottom-[20vw] sm:w-[60vw] lg:w-[52vw] absolute sm:-bottom-[12vw] right-0 animate__animated animate__bounceInUp " />
 </div>

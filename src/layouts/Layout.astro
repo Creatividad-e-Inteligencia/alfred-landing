@@ -4,6 +4,7 @@ interface Props {
 }
 
 const { title } = Astro.props;
+import 'animate.css';
 import '../styles/global.css';
 ---
 
@@ -24,22 +25,22 @@ import '../styles/global.css';
 <style is:global>
 	@font-face {
 		font-family: din-black;
-		src: url(/alfred/font/DINPRO-BLACK.OTF);
+		src: url(/font/DINPRO-BLACK.OTF);
 	}
 
 	@font-face {
 		font-family: din-bold;
-		src: url(/alfred/font/DINPRO-BOLD.OTF);
+		src: url(/font/DINPRO-BOLD.OTF);
 	}
 
 	@font-face {
 		font-family: din-medium;
-		src: url(/alfred/font/DINPRO-MEDIUM.OTF);
+		src: url(/font/DINPRO-MEDIUM.OTF);
 	}
 
 	@font-face {
 		font-family: din-regular;
-		src: url(/alfred/font/DINPRO-REGULAR.OTF);
+		src: url(/font/DINPRO-REGULAR.OTF);
 	}
 	html {
 		font-family: system-ui, sans-serif;
