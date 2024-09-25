@@ -8,8 +8,7 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   // base: "/alfred",
-  site: "https://creatividad-e-inteligencia.github.io",
-  base: "alfred-landing",
+  site: "https://alfred.creatividadeinteligencia.cl",
   integrations: [
     tailwind({
       applyBaseStyles: false,
