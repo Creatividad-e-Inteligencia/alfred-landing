@@ -9,7 +9,7 @@ export default function Contenido() {
         <TextGradient>
           <span className="font-bold text-2xl">1.</span>{" "}
         </TextGradient>
-        Comienza con el agendamiento a la reunión, donde el organizador
+        Comienza con el agendamiento a la reunión, donde el organizador{" "}
         <strong>
           invita a Alfred a través del correo alfred@creatividadeinteligencia.cl{" "}
         </strong>

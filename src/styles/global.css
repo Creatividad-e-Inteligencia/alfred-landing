@@ -97,3 +97,9 @@
     @apply absolute top-1/2 right-0 left-2  -translate-y-1/2;
   }
 }
+
+.accordion-default {
+  h3 {
+    @apply m-0;
+  }
+}

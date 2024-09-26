@@ -22,8 +22,8 @@ export default function Contenido() {
       </p>
       <div className="w-10/12 mx-auto">
         <ModalImage
-          small="/como-invitar/conocimiento.jpg"
-          large="/como-invitar/conocimiento.jpg"
+          small="/como-invitar/conocimiento.jpg?v=001"
+          large="/como-invitar/conocimiento.jpg?v=001"
           alt="Conocimiento"
           className="mx-auto"
         />
