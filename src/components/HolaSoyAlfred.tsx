@@ -35,11 +35,11 @@ export default function Contenido() {
             Automatizar la toma de notas y envío de minutas personalizadas
             (Ahorro de tiempo)
           </li>
-          <li>Potenciar tu rendimiento (Potenciador)</li>
           <li>
             Evitar que se pierda información o acuerdos importantes
             (Seguimiento)
           </li>
+          <li>Potenciar tu rendimiento (Potenciador)</li>
         </ol>
       </p>
     </div>
