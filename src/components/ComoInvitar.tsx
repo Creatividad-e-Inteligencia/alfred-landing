@@ -11,7 +11,7 @@ export default function Contenido() {
         </TextGradient>
         Comienza con el agendamiento a la reunión, donde el organizador{" "}
         <strong>
-          invita a Alfred a través del correo alfred@creatividadeinteligencia.cl{" "}
+          invita a Hugo a través del correo hugo@creatividadeinteligencia.cl{" "}
         </strong>
       </p>
       <div className="w-10/12 mx-auto">
@@ -27,7 +27,7 @@ export default function Contenido() {
           <span className="font-bold text-2xl">2.</span>{" "}
         </TextGradient>
         Al iniciar la reunión en la fecha y hora establecidas,{" "}
-        <strong> Alfred se suma a la reunión como un participante más </strong>,
+        <strong> Hugo se suma a la reunión como un participante más </strong>,
         el administrador de la reunión acepta su ingreso y comienza la
         grabación.
       </p>
@@ -69,7 +69,7 @@ export default function Contenido() {
         </TextGradient>
         Inmediatamente finalizada la reunión,{" "}
         <strong>
-          Alfred genera de forma automática una pre-minuta detallada que es
+          Hugo genera de forma automática una pre-minuta detallada que es
           enviada por correo electrónico
         </strong>{" "}
         al organizador del evento.

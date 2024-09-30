@@ -5,7 +5,7 @@ export default function Contenido() {
         <span className="text-bold">Introducción</span>
       </h3>
       <p>
-        <strong>ALFRED</strong> ("el Asistente", "nosotros", "nuestro/a") es un
+        <strong>HUGO</strong> ("el Asistente", "nosotros", "nuestro/a") es un
         servicio diseñado para asistir en la creación de minutas a partir de
         reuniones grabadas o transcritas. Entendemos la importancia de la
         privacidad y nos comprometemos a proteger los datos personales y
@@ -140,8 +140,8 @@ export default function Contenido() {
       </ul>
       <p>
         Para ejercer estos derechos, los usuarios pueden contactarnos en{" "}
-        <a href="mailto:alfred@creatividadeinteligencia.cl">
-          alfred@creatividadeinteligencia.cl
+        <a href="mailto:hugo@creatividadeinteligencia.cl">
+          hugo@creatividadeinteligencia.cl
         </a>
         .
       </p>
@@ -165,9 +165,9 @@ export default function Contenido() {
         sobre nuestras prácticas de privacidad, puedes contactar a:
       </p>
       <p>
-        <strong>Alfred</strong> <br />
-        <a href="mailto:alfred@creatividadeinteligencia.cl">
-          alfred@creatividadeinteligencia.cl
+        <strong>Hugo</strong> <br />
+        <a href="mailto:hugo@creatividadeinteligencia.cl">
+          hugo@creatividadeinteligencia.cl
         </a>
         <br />
         Dr Wilhelm 1000, Concepción

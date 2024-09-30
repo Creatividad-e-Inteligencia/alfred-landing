@@ -16,7 +16,7 @@ export default function AccordionDemo() {
     <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-1" className="mb-6 pb-2">
         <AccordionTrigger className="relative">
-          Hola, soy Alfred!
+          Hola, soy Hugo!
         </AccordionTrigger>
         <AccordionContent>
           <HolaSoyAlfred />
@@ -24,7 +24,7 @@ export default function AccordionDemo() {
       </AccordionItem>
       <AccordionItem value="item-2" className="mb-6 pb-2">
         <AccordionTrigger className="relative">
-          Cómo invitar a Alfred a mis reuniones
+          Cómo invitar a Hugo a mis reuniones
         </AccordionTrigger>
         <AccordionContent>
           <ComoInvitar />
