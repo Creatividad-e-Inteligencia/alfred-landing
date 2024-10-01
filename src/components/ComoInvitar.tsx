@@ -16,8 +16,8 @@ export default function Contenido() {
       </p>
       <div className="w-10/12 mx-auto">
         <ModalImage
-          small="/como-invitar/paso-1.jpg"
-          large="/como-invitar/paso-1.jpg"
+          small="/como-invitar/paso-1.v2.jpg"
+          large="/como-invitar/paso-1.v2.jpg"
           alt="Paso 1"
         />
       </div>
@@ -39,7 +39,7 @@ export default function Contenido() {
           </TextGradient>
           <div>
             <img
-              src="/como-invitar/paso-2-a.jpg"
+              src="/como-invitar/paso-2-a.v2.jpg"
               alt="Paso 2.a"
               width="342"
               height="72"
@@ -76,8 +76,8 @@ export default function Contenido() {
       </p>
       <div className="w-10/12 mx-auto">
         <ModalImage
-          small="/como-invitar/paso-3.jpg"
-          large="/como-invitar/paso-3.jpg"
+          small="/como-invitar/paso-3.v2.jpg"
+          large="/como-invitar/paso-3.v2.jpg"
           alt="Paso 3"
         />
       </div>
