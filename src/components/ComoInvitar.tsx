@@ -33,16 +33,16 @@ export default function Contenido() {
       </p>
 
       <div className="w-10/12 mx-auto ">
-        <div className="flex gap-4 items-center mb-10">
+        <div className="flex gap-4  mb-10">
           <TextGradient>
             <span className="font-bold text-2xl">a.</span>{" "}
           </TextGradient>
           <div>
             <img
-              src="/como-invitar/paso-2-a.v2.jpg"
+              src="/como-invitar/paso-2-a.v3.jpg"
               alt="Paso 2.a"
-              width="342"
-              height="72"
+              width="290"
+              height="144"
               className="my-0"
             />
           </div>
