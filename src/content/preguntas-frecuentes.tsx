@@ -26,13 +26,13 @@ export default [
         Editar y agrega la info necesaria:{" "}
         <ul>
           <li>
-            <strong>Nombre:</strong> Hugo Asistente CI
+            <strong>Nombre:</strong> Hugo
           </li>
           <li>
             <strong>Email:</strong> hugo@creatividadeinteligencia.cl
           </li>
           <li>
-            <strong>Cargo:</strong> Agente de Conocimiento
+            <strong>Cargo:</strong> Agente de Conocimiento CI
           </li>
           <li>
             <strong>Empresa:</strong> Creatividad e Inteligencia
