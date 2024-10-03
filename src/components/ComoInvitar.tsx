@@ -16,8 +16,8 @@ export default function Contenido() {
       </p>
       <div className="w-10/12 mx-auto">
         <ModalImage
-          small="/como-invitar/paso-1.v2.jpg"
-          large="/como-invitar/paso-1.v2.jpg"
+          small="/como-invitar/paso-1.v3.jpg"
+          large="/como-invitar/paso-1.v3.jpg"
           alt="Paso 1"
         />
       </div>

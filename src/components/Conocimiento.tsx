@@ -18,12 +18,19 @@ export default function Contenido() {
         <strong>natural a través de WhatsApp</strong>, lo que facilita el acceso
         y la gestión de la información en cualquier momento.
       </p>
-      <div className="w-10/12 mx-auto">
+      <div className="sm:w-10/12 mx-auto">
         <ModalImage
           small="/como-invitar/conocimiento.v3.jpg?v=001"
           large="/como-invitar/conocimiento.v3.jpg?v=001"
           alt="Conocimiento"
-          className="mx-auto"
+          className="mx-auto hidden sm:block"
+        />
+
+        <ModalImage
+          small="/como-invitar/conocimiento.v3.m.jpg?v=001"
+          large="/como-invitar/conocimiento.v3.m.jpg?v=001"
+          alt="Conocimiento"
+          className="mx-auto block sm:hidden"
         />
       </div>
     </div>
