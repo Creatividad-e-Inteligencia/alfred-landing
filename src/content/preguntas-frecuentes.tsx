@@ -14,6 +14,40 @@ export default [
     ),
   },
   {
+    name: "¿Cómo agregar a Hugo como contacto en Google?",
+    contenido: (
+      <p>
+        Si recibiste un email de Hugo (
+        <a href="mailto:hugo@creatividadeinteligencia.cl">
+          hugo@creatividadeinteligencia.cl
+        </a>
+        ), haz un clic sobre el remitente del correo y te dará la opción de
+        agregarlo a tus contactos. Una vez agregado, haz clic en el ícono de
+        Editar y agrega la info necesaria:{" "}
+        <ul>
+          <li>
+            <strong>Nombre:</strong> Hugo Asistente CI
+          </li>
+          <li>
+            <strong>Email:</strong> hugo@creatividadeinteligencia.cl
+          </li>
+          <li>
+            <strong>Cargo:</strong> Agente de Conocimiento
+          </li>
+          <li>
+            <strong>Empresa:</strong> Creatividad e Inteligencia
+          </li>
+        </ul>
+        <p>
+          Si no has recibido aún un email de Hugo, ingresa a la sección de
+          Contactos de Google y crea un Contacto Nuevo con esta misma
+          información. De esta forma quedará guardado y podrás agregarlo
+          fácilmente a todas las reuniones.
+        </p>
+      </p>
+    ),
+  },
+  {
     name: "¿Cómo saco a Hugo de una reunión?",
     contenido: (
       <p>
@@ -111,6 +145,15 @@ export default [
         para capturar de manera eficiente todos los puntos clave de la reunión.
         Estamos trabajando para permitir personalizaciones en futuras
         actualizaciones.
+      </p>
+    ),
+  },
+  {
+    name: "¿Puedo adjuntar archivos en la minuta?",
+    contenido: (
+      <p>
+        De momento no, estamos trabajando en una actualización para realizar
+        esta mejora.
       </p>
     ),
   },
