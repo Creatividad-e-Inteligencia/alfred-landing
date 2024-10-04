@@ -48,6 +48,14 @@ export default [
     ),
   },
   {
+    name: "¿Con cuánta anticipación debo invitar a Hugo?",
+    contenido: (
+      <p>
+        Hugo necesita ser agendado con un mínimo de 5 minutos de anticipación.
+      </p>
+    ),
+  },
+  {
     name: "¿Cómo saco a Hugo de una reunión?",
     contenido: (
       <p>
